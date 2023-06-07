@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/docdoom12345/precommittest.git
+    rev: main
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_validate
